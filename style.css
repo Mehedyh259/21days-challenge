@@ -1,0 +1,229 @@
+/* google fonts link */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+/* common css */
+
+.padding-both {
+    padding: 30px 0;
+}
+
+.container {
+    width: 1150px;
+    margin: 0 auto;
+}
+
+.flex-div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.half-div {
+    width: 50%;
+}
+
+
+
+
+/* header section css */
+.sitename>h3 {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.sitenav li {
+    list-style: none;
+    margin-left: 21px;
+}
+
+.sitenav li a {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+/* Banner Section css */
+
+.banner-content h1 {
+    font-size: 52px;
+    line-height: 70px;
+    font-weight: 700;
+}
+
+.banner-content p {
+    font-size: 16px;
+    line-height: 24px;
+    margin: 16px 0;
+}
+
+.red-button {
+    color: #fff;
+    background: #E02C6D;
+    padding: 10px 25px;
+    border: none;
+    cursor: pointer;
+    border-radius: 25px;
+}
+
+.red-button i {
+    margin-left: 7px;
+}
+
+.banner-image img {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* logo area css */
+.logo-area {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    flex-wrap: wrap;
+    column-gap: 40px;
+    row-gap: 10px;
+}
+
+.log-area img {
+    width: 85px;
+    height: 40px;
+}
+
+
+/* popular collection css */
+.popular-collection-area h1 {
+    font-size: 28px;
+    line-height: 70px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.popular-collection {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+}
+
+.single-collection {
+    border-radius: 7px;
+    box-shadow: 0px 0px 5px 1px #2826266a;
+    padding: 15px;
+}
+
+.collection-image {
+    margin-bottom: 15px;
+}
+
+.collection-image img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.collection-info h3 {
+    font-size: 28px;
+    line-height: 40px;
+    font-weight: 600;
+}
+
+.collection-info h4 {
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: 400;
+}
+
+.rating i {
+    color: orange;
+    font-size: 12px;
+}
+
+.rating span {
+    font-size: 14px;
+    margin-left: 10px;
+    font-weight: 600;
+}
+
+.collection-info .info {
+    font-size: 12px;
+    font-weight: 600;
+    margin-top: 5px;
+}
+
+.see-more {
+    text-align: right;
+    margin-top: 50px;
+}
+
+.see-more a {
+    text-decoration: none;
+    color: #E02C6D;
+    font-size: 24px;
+}
+
+
+/* custom form area css */
+.custom-image-area img {
+    width: 100%;
+    height: 100%;
+}
+
+.custom-form-area {
+    width: 48%;
+}
+
+.custom-form-area h1 {
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.custom-form-area input,
+.custom-form-area textarea {
+    width: 100%;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    margin-top: 7px;
+    font-size: 15px;
+    box-sizing: border-box;
+}
+
+/* footer area css */
+footer {
+    background-color: rgb(8, 8, 58);
+    color: #fff;
+    text-align: center;
+}
+
+.footer-area h2 {
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 700;
+}
+
+.footer-area p {
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.social-link {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    display: inline-block;
+    padding: 4px 10px;
+    border-radius: 50%;
+    background-color: rgb(17, 17, 83);
+    margin: 15px 5px;
+}
